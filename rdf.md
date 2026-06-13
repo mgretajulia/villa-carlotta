@@ -73,13 +73,6 @@ None of the three LLMs produced a triple that links the **individual** artworks 
     arco-lite:hasHistoricalCollection
     "Antonio Canova: Palamede, Maddalena Penitente, Amore e Psiche (replica); Bertel Thorvaldsen: Triumph of Alexander; Francesco Hayez: Portrait of a Woman; Pelagio Palagi: neoclassical decorative panels — collected under the villa's former name, Villa Sommariva." .
 ```
-
-<div class="callout">
-This triple set is the weakest of the five and is flagged as <strong>future work</strong>: a better model would give
-each artwork its own IRI and link it to Villa Carlotta with <code>arco:isCulturalPropertyComponentOf</code> (see
-Gap #2 on the <a href="gaps.html">Identifying Gaps</a> page).
-</div>
-
 ---
 
 ## 3. Triple Set — The Three Names of the Villa
@@ -117,8 +110,6 @@ WHERE {
 | 5 | `Title/VillaClerici` | `l0:name` | "Villa Clerici" |
 | 6 | `Title/VillaSommariva` | `l0:name` | "Villa Sommariva" |
 
-This directly closes the gap identified in [Query 4](sparql.html) (the missing "Villa Clerici" entity) and links it
-to the cross-over entity found in our [Breakthrough Analysis](sparql.html).
 
 ---
 
@@ -281,13 +272,7 @@ WHERE {
 
 ## 🔗 Final Triples Summary
 
-| Gap | Best predicate found | Status |
-|---|---|---|
-| Historical owners | `ex:historicalOwners` (proposed) | ✅ Usable triple produced |
-| Art collection (Canova, Thorvaldsen...) | `arco-lite:hasHistoricalCollection` (proposed) | ⚠️ Weak — needs per-artwork IRIs |
-| Three names (Carlotta / Clerici / Sommariva) | `a-cd:hasTitle` + `l0:name` | ✅ 6 triples produced |
-| Depicting artworks | `arco-cd:hasSubject` / `arco-cd:hasAuthor` | ✅ 24 triples produced (Gemini) |
-| Botanical gardens | `arco-core:description` / `l0:description` | ✅ Usable triple produced |
+
 
 <hr>
 <div class="page-footer-nav">
