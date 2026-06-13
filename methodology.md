@@ -22,9 +22,9 @@ title: Villa Carlotta
 
 To achieve our goal, we developed a project management strategy that allowed us, as a team, to carefully examine
 every aspect of enriching the [**ArCo**](http://wit.istc.cnr.it/arco/) knowledge graph with information about
-[**Villa Carlotta**](https://www.villacarlotta.it/en/).
+[**Villa Carlotta**](https://www.villacarlotta.it/en/);
 
-## Step-by-step process
+##our progressive approach
 
 1. **Selecting the Topic**
    We decided to investigate one of the most famous places connected to Italian cultural heritage that is also used
