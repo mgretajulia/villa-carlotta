@@ -68,24 +68,6 @@ techniques deliberately, gave us the richest results. See the [LLM Prompts](prom
 
 ---
 
-### 🌍 Future Developments
-
-This project opens the door to several possibilities for future enrichment of ArCo:
-
-- **Linking the art collection** (Canova, Thorvaldsen, Hayez, Palagi) as individual `arco:isCulturalPropertyComponentOf`
-  entities, rather than a single description (see [Gap #2](gaps.html)).
-- **Linking the botanical garden** as its own landscape entity connected to the main villa IRI (see [Gap #3](gaps.html)).
-- Adopting ChatGPT's **Title resource pattern** more broadly for other cultural properties that have changed names
-  over time.
-- Replacing the placeholder images used throughout this site with real photographs of Villa Carlotta, its
-  collection, and its gardens.
-
----
-
-Through this project, we gained hands-on experience in **semantic enrichment**, **SPARQL querying**, and
-**LLM prompting**, while exploring how a historic villa that is still a living cultural venue today could be better
-represented in Italy's official cultural heritage knowledge graph.
-
 <hr>
 <div class="page-footer-nav" style="justify-content: flex-start;">
   <a href="challenges.html">← Previous</a>
