@@ -1,0 +1,9 @@
+# Source docx files (not part of the published site)
+*.docx
+
+# Jekyll / Bundler
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
