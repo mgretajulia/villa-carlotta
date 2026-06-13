@@ -90,8 +90,7 @@ holds records of the physical property, and gives us the exact subject IRIs we m
 
 ## Query 2 — Villa Carlotta as an Immovable Cultural Property
 
-We wanted to find out whether ArCo links Villa Carlotta to the class `arco:ImmovableCulturalProperty`, and which more
-precise subclass it belongs to.
+We wanted to find out if there is connection in ArCo system for Villa Carlotta as Immovable cultural property
 
 ### Keywords used
 - **`OPTIONAL`** — fetches the more precise subclass (e.g. "Architectural or Landscape Heritage") only if it exists
