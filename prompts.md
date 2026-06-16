@@ -125,11 +125,11 @@ Reply 1:“ Sommariva owned major neoclassical artworks by Canova, Thorvaldsen, 
 Request 2: 
 “Explain which artworks from Sommariva’s collection were located in Villa Carlotta.” 
 
-Reply 2:“ Canova, Thorvaldsen, Hayez, Palagi’s artworks were displayed in Villa Sommariva (now Villa Carlotta).”|
+Reply 2:“ Canova, Thorvaldsen, Hayez, Palagi’s artworks were displayed in Villa Sommariva (now Villa Carlotta).”
 
 Final Answer: “Sommariva owned major neoclassical artworks by Canova, Thorvaldsen, Hayez, Palagi. These artworks were displayed in Villa Sommariva (now Villa Carlotta)”
 
-Task: “Provide a complete list of artworks connected to Villa Carlotta through its owners.*) 
+Task: “Provide a complete list of artworks connected to Villa Carlotta through its owners.”
 
 **Considerations:** Claude gave a shorter but highly accurate list, confirming **Antonio Canova** (*Palamede*,
 *Maddalena Penitente*, *Amore e Psiche* replica) and **Bertel Thorvaldsen** (*Triumph of Alexander*), alongside
