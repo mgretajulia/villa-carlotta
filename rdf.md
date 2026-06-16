@@ -54,7 +54,7 @@ WHERE {
 }
 ```
 
-**Resulting triple:**
+**Resulting triple from Yasgui:**
 
 | Subject | Predicate | Object |
 |---|---|---|
