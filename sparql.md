@@ -260,7 +260,6 @@ ORDER BY ?type ?label
 
 The query returned **37 result rows**, coming from these **22 unique IRIs** connected to the name "Villa Sommariva":
 
-![Query 6 results](https://placehold.co/800x400?text=Query+6+results+%28800x400%29)
 
 **Properties (`arco:HistoricOrArtisticProperty`)**
 
