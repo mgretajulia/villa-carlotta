@@ -51,7 +51,7 @@ ORDER BY ?predicate
 
 ### Result
 
-![Discovery query result](https://placehold.co/800x400?text=Discovery+query+result+%28800x400%29)
+![Discovery query result](assets/home/gaps.png)
 
 We got a long list of predicates and objects, but found **no information connecting this property to Villa Carlotta
 or to its patrons** (Clerici, Sommariva).
@@ -116,7 +116,7 @@ LIMIT 20
 
 ### Result
 
-![Benchmarking query result](https://placehold.co/800x400?text=Benchmarking+query+result+%28800x400%29)
+![Benchmarking query result](assets/home/gaps2.png)
 
 We discovered that ArCo has **no single, dedicated predicate** for "housing" museum items. Instead it uses several
 predicates such as `arco:isCulturalPropertyComponentOf`, `hasCulturalPropertyAddress`, and
