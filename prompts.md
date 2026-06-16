@@ -16,9 +16,6 @@ title: Villa Carlotta
 
 # Using LLMs to Verify and Produce New Knowledge
 
-<p align="center">
-  <img src="https://placehold.co/400x250?text=LLMs+%28400x250%29" alt="LLMs" width="400">
-</p>
 
 For the three gaps identified on the [Identifying Gaps](gaps.html) page — plus two extra pieces of missing
 information about the art collection and the artworks that depict the villa — we asked **four LLMs**:
@@ -50,7 +47,7 @@ ArCo ontology.
 
 ### [Copilot](https://copilot.microsoft.com/)
 
-![Copilot answer](https://placehold.co/700x400?text=Copilot+answer+%28700x400%29)
+![Copilot answer](assets/home/llm-PROMTS/copilot-1.png)
 
 **Considerations:** Copilot chose the general-purpose predicate `arco-core:description` and combined all three
 owners into a single literal sentence. This is safe and valid, but it doesn't model the three owners as separate,
@@ -60,7 +57,7 @@ queryable entities.
 
 After Copilot's answer, we asked ChatGPT a simple zero-shot follow-up: *"can you provide a QUERY?"*
 
-![ChatGPT answer](https://placehold.co/700x400?text=ChatGPT+answer+%28700x400%29)
+![ChatGPT answer](assets/home/llm-PROMTS/chat-gpt-1.png)
 
 **Considerations:** ChatGPT proposed a brand-new predicate, `ex:historicalOwners`, and built a full `CONSTRUCT`
 query around it. This is more descriptive than a plain text blob, but it uses a placeholder `ex:` namespace that
@@ -141,14 +138,14 @@ Villa Carlotta has been known under three names over the centuries: **Villa Cler
 
 ### [Copilot](https://copilot.microsoft.com/)
 
-![Copilot query](https://placehold.co/700x400?text=Copilot+query+%28700x400%29)
+![Copilot query](assets/home/llm-PROMPTS/copilot-2.png)
 
 Copilot proposed using `arco-core:hasAlternativeDenomination`, but the resulting query returned **no results** from
 either Yasgui or DBpedia.
 
 ### [ChatGPT](https://chat.openai.com/)
 
-![ChatGPT query](https://placehold.co/700x400?text=ChatGPT+query+%28700x400%29)
+![ChatGPT query](assets/home/llm-PROMPTS/chat-gpt-2.png)
 
 ChatGPT took a different, more structured approach: it created **three separate "Title" resources** — one for each
 name — and linked Villa Carlotta to each of them with `a-cd:hasTitle`, while giving each Title resource a literal
@@ -191,13 +188,13 @@ LLMs to connect these depictions to the villa.
 
 ### [Copilot](https://copilot.microsoft.com/)
 
-![Copilot Turtle](https://placehold.co/700x400?text=Copilot+Turtle+%28700x400%29)
+![Copilot Turtle](assets/home/llm-PROMPTS/copilot-3.png)
 
 Copilot generated a `CONSTRUCT` query that links six new artwork IRIs to Villa Carlotta via `arco-dd:hasSubject`.
 
 ### [ChatGPT](https://chat.openai.com/)
 
-![ChatGPT query 1](https://placehold.co/700x400?text=ChatGPT+query+1+%28700x400%29)
+![ChatGPT query 1](assets/home/llm-PROMPTS/chat-gpt-3.png)
 
 ChatGPT proposed its own set of "CulturalProperty" IRIs (one per artwork/sketch group) and linked each of them to
 Villa Carlotta with `a-cd:hasSubject`. It then offered a **second** query that instead adds one combined
@@ -205,7 +202,7 @@ Villa Carlotta with `a-cd:hasSubject`. It then offered a **second** query that i
 
 ### [Gemini](https://gemini.google.com/)
 
-![Gemini result](https://placehold.co/700x400?text=Gemini+result+%28700x400%29)
+![Gemini result](assets/home/llm-PROMPTS/gemini-3.png)
 
 Gemini's answer was by far the **richest and most structured**: it created a separate entity for each artwork/sketch
 group (e.g. `BisiLandscapePaintings`, `BechsteinEngravings`, `BidauldSketches`, `BisiSketches`, `SanquiricoSketches`),
