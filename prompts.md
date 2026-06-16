@@ -115,12 +115,17 @@ artworks connected to Villa Carlotta through its owners. Few Shot Prompting
 Prompt 
 
 Examples provided to the model:
+
 Request 1: 
 “List artworks owned by Giovanni Battista Sommariva.” 
+
 Reply 1:“ Sommariva owned major neoclassical artworks by Canova, Thorvaldsen, Hayez, Palagi”
+
 Request 2: 
 “Explain which artworks from Sommariva’s collection were located in Villa Carlotta.” 
+
 Reply 2:“ Canova, Thorvaldsen, Hayez, Palagi’s artworks were displayed in Villa Sommariva (now Villa Carlotta).”|
+
 Final Answer: “Sommariva owned major neoclassical artworks by Canova, Thorvaldsen, Hayez, Palagi. These artworks were displayed in Villa Sommariva (now Villa Carlotta)”
 Task: “Provide a complete list of artworks connected to Villa Carlotta through its owners.*) 
 
