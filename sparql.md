@@ -62,14 +62,14 @@ WHERE {
 }
 ```
 
-### ✅ Results
+### Results
 
 The query returned **11 distinct IRIs** typed as `arco:HistoricOrArtisticProperty`. This confirms that ArCo already
 holds records of the physical property, and gives us the exact subject IRIs we may need for future enrichment.
 
 ![Query 1 results](assets/home/sparql-and-results/query-1.png)
 
-### 🧾 IRIs found
+### IRIs found
 
 - [HistoricOrArtisticProperty/0500657044](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0500657044)
 - [HistoricOrArtisticProperty/0300053557](https://w3id.org/arco/resource/HistoricOrArtisticProperty/0300053557)
@@ -109,14 +109,14 @@ WHERE {
 LIMIT 50
 ```
 
-### ✅ Results
+### Results
 
 We found that Villa Carlotta belongs to the class **`ArchitecturalOrLandscapeHeritage`**. This will be very useful
 for the enrichment part later.
 
 ![Query 2 results](assets/home/sparql-and-results/query-2.png)
 
-### 🧾 IRIs found
+### IRIs found
 
 - [Lombardia/ArchitecturalOrLandscapeHeritage/CO160-00021_R03](https://w3id.org/arco/resource/Lombardia/ArchitecturalOrLandscapeHeritage/CO160-00021_R03) — our main IRI for Villa Carlotta
 - [Lombardia/ArchitecturalOrLandscapeHeritage/CO160-00022_R03](https://w3id.org/arco/resource/Lombardia/ArchitecturalOrLandscapeHeritage/CO160-00022_R03)
@@ -147,7 +147,7 @@ WHERE {
 }
 ```
 
-### ✅ Results
+### Results
 
 The query returned the same IRIs found in Query 1, this time including their depictions.
 
@@ -172,7 +172,7 @@ WHERE {
 }
 ```
 
-### ❌ Results
+### Results
 
 **Negative result** — the query confirmed that ArCo does **not** contain any entity labeled "Villa Clerici". This is
 our first hint of a possible knowledge gap around the villa's historic names.
@@ -198,7 +198,7 @@ WHERE {
 }
 ```
 
-### ✅ Results
+### Results
 
 This query found **10 new IRIs**. More importantly, it revealed key historical context: the villa is also referred to
 as **"Villa Sommariva"** (named after a famous past owner, Giovanni Battista Sommariva), and it surfaced mentions of
@@ -206,7 +206,7 @@ its famous gardens (**"Giardini"**).
 
 ![Query 5 results](assets/home/sparql-and-results/query-5.png)
 
-### 🧾 IRIs found
+### IRIs found
 
 - [Subject/c66bb0e4141fe7d723dcfd70651ef31e](https://w3id.org/arco/resource/Subject/c66bb0e4141fe7d723dcfd70651ef31e)
 - [Subject/7038f42d5ef61cdb07e9bb4634f9a618](https://w3id.org/arco/resource/Subject/7038f42d5ef61cdb07e9bb4634f9a618)
@@ -256,7 +256,7 @@ WHERE {
 ORDER BY ?type ?label
 ```
 
-### ✅ Results
+### Results
 
 The query returned **37 result rows**, coming from these **22 unique IRIs** connected to the name "Villa Sommariva":
 
@@ -317,7 +317,7 @@ This exact IRI appears in **both Query 1 and Query 5/6**, which tells us that th
 explicitly labeled with both names (e.g. *"Villa Carlotta, già Villa Sommariva"*), making it a perfect pivot point for
 data integration.
 
-### 📌 A full discussion of what is missing is available on the [Identifying Gaps](gaps.html) page.
+### A full discussion of what is missing is available on the [Identifying Gaps](gaps.html) page.
 
 <hr>
 <div class="page-footer-nav">
