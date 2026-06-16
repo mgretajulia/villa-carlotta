@@ -111,8 +111,9 @@ Gemini produced very long triples, but again **no results from the tested query*
 ### [Claude AI](https://claude.ai/) — verification with a few-shot prompt
 
 We gave Claude two worked examples before asking it for a complete list of
-artworks connected to Villa Carlotta through its owners. (*"2.2 Few Shot Prompting
-Prompt (Few Shot)
+artworks connected to Villa Carlotta through its owners. Few Shot Prompting
+Prompt 
+
 Examples provided to the model:
 Request 1: 
 “List artworks owned by Giovanni Battista Sommariva.” 
