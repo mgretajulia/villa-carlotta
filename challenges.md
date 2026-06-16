@@ -15,7 +15,7 @@ title: Villa Carlotta
 </div>
 
 <p align="center">
-  <img src="assets/home/botanical" alt="Challenges" width="400">
+  <img src="assets/home/botanical-landscape.png" alt="Challenges" width="400">
 </p>
 
 # Challenges Faced During the Project
