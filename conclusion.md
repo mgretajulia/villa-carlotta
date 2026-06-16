@@ -27,7 +27,7 @@ enrich Italian cultural heritage data. Here are our main takeaways.
 
 ---
 
-### 🧠 SPARQL and the ArCo Ontology
+### SPARQL and the ArCo Ontology
 
 [ArCo](http://wit.istc.cnr.it/arco/?lang=en) and SPARQL proved to be powerful tools for exploring structured data
 about Villa Carlotta. We learned that:
@@ -41,7 +41,7 @@ about Villa Carlotta. We learned that:
 
 ---
 
-### 🤖 Large Language Models
+### Large Language Models
 
 We compared four LLMs — [Copilot](https://copilot.microsoft.com/), [ChatGPT](https://chat.openai.com/),
 [Gemini](https://gemini.google.com/) and [Claude AI](https://claude.ai/) — across five different enrichment tasks:
