@@ -53,23 +53,23 @@ every aspect of enriching the [**ArCo**](http://wit.istc.cnr.it/arco/) knowledge
    and Copilot.
 
 15. **Prompt Engineering for LLMs**
-    
-   We crafted prompts using three prompting strategies — **zero-shot**, **few-shot** and **chain-of-thought** — to
+
+    We crafted prompts using three prompting strategies — **zero-shot**, **few-shot** and **chain-of-thought** — to
    extract new facts from the chosen LLMs.
 
 17. **Comparing LLM Outputs**
-    
-   We analyzed and compared the answers provided by the different language models to ensure consistency and richness.
 
-19. **RDF Enrichment**
-    
+    We analyzed and compared the answers provided by the different language models to ensure consistency and richness.
+
+20. **RDF Enrichment**
+
     We transformed relevant LLM outputs into RDF triples using ArCo-compliant structure and vocabulary.
 
-21. **Triple Design**
-    
+22. **Triple Design**
+
     We designed the final RDF triples to reflect the new insights, formatted according to ArCo's ontological model.
 
-23. **Website Creation**
+24. **Website Creation**
     
     We implemented this website using GitHub Pages to present our project in an accessible and visually structured
     format.
