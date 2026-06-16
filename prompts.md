@@ -57,7 +57,7 @@ queryable entities.
 
 After Copilot's answer, we asked ChatGPT a simple zero-shot follow-up: *"can you provide a QUERY?"*
 
-![ChatGPT answer](assets/home/llm-PROMTS/chat-gpt-1.png)
+![ChatGPT answer](assets/home/chat-gpt-1.png)
 
 **Considerations:** ChatGPT proposed a brand-new predicate, `ex:historicalOwners`, and built a full `CONSTRUCT`
 query around it. This is more descriptive than a plain text blob, but it uses a placeholder `ex:` namespace that
