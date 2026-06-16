@@ -74,7 +74,7 @@ All three LLMs produced a triple that links the **individual** artworks (Canova'
 ```
 ---
 
-Result:
+Yasgui Result:
 Subject :CO160-00021_R03
 Predicate :arco-lite:hasHistoricalCollection
 Object :Giorgio Clerici (original builder); Giovanni Battista Sommariva (collector and renovator); Princess Charlotte of Prussia (modern namesake)
