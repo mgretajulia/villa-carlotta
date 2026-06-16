@@ -47,7 +47,7 @@ ArCo ontology.
 
 ### [Copilot](https://copilot.microsoft.com/)
 
-![Copilot answer](assets/home/llm-PROMTS/copilot-1.png)
+![Copilot answer](assets/llm-PROMTS/copilot-1.png)
 
 **Considerations:** Copilot chose the general-purpose predicate `arco-core:description` and combined all three
 owners into a single literal sentence. This is safe and valid, but it doesn't model the three owners as separate,
