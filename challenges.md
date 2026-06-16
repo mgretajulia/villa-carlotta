@@ -15,7 +15,7 @@ title: Villa Carlotta
 </div>
 
 <p align="center">
-  <img src="https://placehold.co/400x250?text=Challenges+%28400x250%29" alt="Challenges" width="400">
+  <img src="assets/home/botanical" alt="Challenges" width="400">
 </p>
 
 # Challenges Faced During the Project
