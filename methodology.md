@@ -13,6 +13,7 @@ title: Villa Carlotta
   <a href="challenges.html">⚠️ Challenges</a>
   <a href="conclusion.html">✅ Conclusion</a>
 </div>
+
 # Methodology
 
 To achieve our goal, we developed a project management strategy that allowed us, as a team, to carefully examine
