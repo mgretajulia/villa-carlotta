@@ -83,6 +83,13 @@ it into a museum, and **Princess Charlotte of Prussia** received it in 1843, giv
 Claude did not propose a new RDF predicate, but its independent confirmation gave us confidence in the
 `ex:historicalOwners` triple produced by ChatGPT.
 
+| LLM| Summary of Output |
+|---|---|
+| **Copilot** | Provides a structured timeline:Clerici → Sommariva → Charlotte of Prussia. Highlights that ArCo lacks this information|
+| **ChatGPT** | Gives detailed biographies and ownership dates |
+| **Gemini**|Provides the richest historical context, including political background | 
+| **Claude** | Gives concise, fact checked historical summaries. |
+
 ---
 
 ## 2️⃣ Missing Information #2 — Linking the Art Collection to Villa Carlotta
