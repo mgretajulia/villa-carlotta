@@ -65,9 +65,13 @@ would still need to be mapped onto a real ArCo (or new) ontology term.
 
 ### [Gemini](https://gemini.google.com/)
 
+![ChatGPT answer](assets/home/gemini-1.png)
+
 When we ran the generated query on Yasgui and DBpedia, **Gemini's query returned no results**.
 
 ### [Claude AI](https://claude.ai/) — verification with a zero-shot prompt
+
+![ChatGPT answer](assets/home/claude-1.png)
 
 We separately asked Claude a zero-shot prompt: *"Provide a complete historical overview of the owners of Villa
 Carlotta (Tremezzo, Lake Como). Include dates of ownership, historical context, and how each owner influenced the
@@ -97,18 +101,26 @@ asked the LLMs to reason step by step about how to connect them.
 
 ### [Copilot](https://copilot.microsoft.com/)
 
+![Copilot query](assets/home/copilot-2.png)
+
 No results were returned from the generated query.
 
 ### [ChatGPT](https://chat.openai.com/)
+
+![ChatGPT query](assets/home/chat-gpt-2.png)
 
 ChatGPT reused the same approach as for Missing Information #1, proposing a new predicate,
 `arco-lite:hasHistoricalCollection`, to link Villa Carlotta to a literal description of the collection.
 
 ### [Gemini](https://gemini.google.com/)
 
+![gemini query](assets/home/gemini-2.png)
+
 Gemini produced very long triples, but again **no results from the tested query**.
 
 ### [Claude AI](https://claude.ai/) — verification with a few-shot prompt
+
+![claude query](assets/home/claude-2.png)
 
 We gave Claude two worked examples before asking it for a complete list of
 artworks connected to Villa Carlotta through its owners. 
@@ -155,14 +167,15 @@ Villa Carlotta has been known under three names over the centuries: **Villa Cler
 
 ### [Copilot](https://copilot.microsoft.com/)
 
-![Copilot query](assets/home/copilot-2.png)
+![Copilot query](assets/home/copilot-3.png)
 
 Copilot proposed using `arco-core:hasAlternativeDenomination`, but the resulting query returned **no results** from
 either Yasgui or DBpedia.
 
 ### [ChatGPT](https://chat.openai.com/)
 
-![ChatGPT query](assets/home/chat-gpt-2.png)
+![ChatGPT query](assets/home/chat-gpt-3.png)
+
 
 ChatGPT took a different, more structured approach: it created **three separate "Title" resources** — one for each
 name — and linked Villa Carlotta to each of them with `a-cd:hasTitle`, while giving each Title resource a literal
@@ -171,9 +184,13 @@ full result).
 
 ### [Gemini](https://gemini.google.com/)
 
+![Gemini query](assets/home/gemini-3.png)
+
 No results from the provided query.
 
 ### [Claude AI](https://claude.ai/) — verification with a chain-of-thought prompt
+
+![Claude query](assets/home/claude-3.png)
 
 We separately asked Claude to *"reason step-by-step: are Villa Clerici, Villa Sommariva, and Villa Carlotta
 historically the same building? Provide historical evidence, ownership transitions, and naming chronology."*
