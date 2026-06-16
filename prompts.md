@@ -112,6 +112,7 @@ Gemini produced very long triples, but again **no results from the tested query*
 
 We gave Claude two worked examples before asking it for a complete list of
 artworks connected to Villa Carlotta through its owners. 
+
 Few Shot Prompting
 
 Examples provided to the model:
@@ -127,6 +128,7 @@ Request 2:
 Reply 2:“ Canova, Thorvaldsen, Hayez, Palagi’s artworks were displayed in Villa Sommariva (now Villa Carlotta).”|
 
 Final Answer: “Sommariva owned major neoclassical artworks by Canova, Thorvaldsen, Hayez, Palagi. These artworks were displayed in Villa Sommariva (now Villa Carlotta)”
+
 Task: “Provide a complete list of artworks connected to Villa Carlotta through its owners.*) 
 
 **Considerations:** Claude gave a shorter but highly accurate list, confirming **Antonio Canova** (*Palamede*,
