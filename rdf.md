@@ -4,14 +4,14 @@ title: Villa Carlotta
 ---
 
 <div class="site-nav">
-  <a href="index.html">🏠 Home</a>
-  <a href="topic.html">🏛️ Topic</a>
-  <a href="methodology.html">⚒️ Methodology</a>
-  <a href="sparql.html">📊 SPARQL & Results</a>
-  <a href="gaps.html">🔍 Identifying Gaps</a>
-  <a href="prompts.html">💬 LLM Prompts</a>
-  <a href="challenges.html">⚠️ Challenges</a>
-  <a href="conclusion.html">✅ Conclusion</a>
+  <a href="index.html">⭐ Home</a>
+  <a href="topic.html">⭐ Topic</a>
+  <a href="methodology.html">⭐ Methodology</a>
+  <a href="sparql.html">⭐ SPARQL & Results</a>
+  <a href="gaps.html">⭐ Identifying Gaps</a>
+  <a href="prompts.html">⭐ LLM Prompts</a>
+  <a href="challenges.html">⭐ Challenges</a>
+  <a href="conclusion.html">⭐ Conclusion</a>
 </div>
 
 # Generating Our New RDF Triples
@@ -64,9 +64,8 @@ WHERE {
 
 ## 2. Triple Set — Art Collection Linked via "Villa Sommariva"
 
-None of the three LLMs produced a triple that links the **individual** artworks (Canova's *Palamede*, Thorvaldsen's
-*Triumph of Alexander*, etc.) as separate entities. The only usable output, from ChatGPT, reused the same
-"description" pattern with a new predicate:
+All three LLMs produced a triple that links the **individual** artworks (Canova's *Palamede*, Thorvaldsen's
+*Triumph of Alexander*, etc.) as separate entities. The best output was from ChatGPT: 
 
 ```turtle
 <https://w3id.org/arco/resource/Lombardia/ArchitecturalOrLandscapeHeritage/CO160-00021_R03>
@@ -74,6 +73,12 @@ None of the three LLMs produced a triple that links the **individual** artworks 
     "Antonio Canova: Palamede, Maddalena Penitente, Amore e Psiche (replica); Bertel Thorvaldsen: Triumph of Alexander; Francesco Hayez: Portrait of a Woman; Pelagio Palagi: neoclassical decorative panels — collected under the villa's former name, Villa Sommariva." .
 ```
 ---
+
+Result:
+Subject :CO160-00021_R03
+Predicate :arco-lite:hasHistoricalCollection
+Object :Giorgio Clerici (original builder); Giovanni Battista Sommariva (collector and renovator); Princess Charlotte of Prussia (modern namesake)
+
 
 ## 3. Triple Set — The Three Names of the Villa
 
@@ -269,9 +274,6 @@ WHERE {
 [Gemini](https://gemini.google.com/) returned **no results** for this missing information.
 
 ---
-
-## 🔗 Final Triples Summary
-
 
 
 <hr>
