@@ -47,7 +47,7 @@ ArCo ontology.
 
 ### [Copilot](https://copilot.microsoft.com/)
 
-![Copilot answer](assets/llm-PROMTS/copilot-1.png)
+![Copilot answer](assets/home/copilot-1.png)
 
 **Considerations:** Copilot chose the general-purpose predicate `arco-core:description` and combined all three
 owners into a single literal sentence. This is safe and valid, but it doesn't model the three owners as separate,
@@ -155,14 +155,14 @@ Villa Carlotta has been known under three names over the centuries: **Villa Cler
 
 ### [Copilot](https://copilot.microsoft.com/)
 
-![Copilot query](assets/home/llm-PROMPTS/copilot-2.png)
+![Copilot query](assets/home/copilot-2.png)
 
 Copilot proposed using `arco-core:hasAlternativeDenomination`, but the resulting query returned **no results** from
 either Yasgui or DBpedia.
 
 ### [ChatGPT](https://chat.openai.com/)
 
-![ChatGPT query](assets/home/llm-PROMPTS/chat-gpt-2.png)
+![ChatGPT query](assets/home/chat-gpt-2.png)
 
 ChatGPT took a different, more structured approach: it created **three separate "Title" resources** — one for each
 name — and linked Villa Carlotta to each of them with `a-cd:hasTitle`, while giving each Title resource a literal
@@ -205,13 +205,13 @@ LLMs to connect these depictions to the villa.
 
 ### [Copilot](https://copilot.microsoft.com/)
 
-![Copilot Turtle](assets/home/llm-PROMPTS/copilot-3.png)
+![Copilot Turtle](assets/home/copilot-3.png)
 
 Copilot generated a `CONSTRUCT` query that links six new artwork IRIs to Villa Carlotta via `arco-dd:hasSubject`.
 
 ### [ChatGPT](https://chat.openai.com/)
 
-![ChatGPT query 1](assets/home/llm-PROMPTS/chat-gpt-3.png)
+![ChatGPT query 1](assets/home/chat-gpt-3.png)
 
 ChatGPT proposed its own set of "CulturalProperty" IRIs (one per artwork/sketch group) and linked each of them to
 Villa Carlotta with `a-cd:hasSubject`. It then offered a **second** query that instead adds one combined
@@ -219,7 +219,7 @@ Villa Carlotta with `a-cd:hasSubject`. It then offered a **second** query that i
 
 ### [Gemini](https://gemini.google.com/)
 
-![Gemini result](assets/home/llm-PROMPTS/gemini-3.png)
+![Gemini result](assets/home/gemini-3.png)
 
 Gemini's answer was by far the **richest and most structured**: it created a separate entity for each artwork/sketch
 group (e.g. `BisiLandscapePaintings`, `BechsteinEngravings`, `BidauldSketches`, `BisiSketches`, `SanquiricoSketches`),
@@ -240,14 +240,11 @@ point for real enrichment — see the full triple list on the [RDF Triples](rdf.
 
 ### [Copilot](https://copilot.microsoft.com/)
 
-![Copilot garden triple](https://placehold.co/700x400?text=Copilot+garden+triple+%28700x400%29)
-
 Copilot combined all the garden facts into a single literal and attached it to Villa Carlotta with
 `arco-core:description`, using a `CONSTRUCT` query with `BIND(true AS ?x)`.
 
 ### [ChatGPT](https://chat.openai.com/)
 
-![ChatGPT garden triple](https://placehold.co/700x400?text=ChatGPT+garden+triple+%28700x400%29)
 
 ChatGPT took the same "single descriptive literal" approach, but used the predicate `l0:description` instead.
 
