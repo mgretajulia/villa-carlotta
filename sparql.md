@@ -16,9 +16,6 @@ title: Villa Carlotta
 
 # SPARQL Queries & Results
 
-<p align="center">
-  <img src="https://placehold.co/400x250?text=ArCo+%28400x250%29" alt="ArCo" width="400">
-</p>
 
 Here are the SPARQL queries we used to research [**Villa Carlotta**](https://www.villacarlotta.it/en/) in
 [**ArCo**](http://wit.istc.cnr.it/arco/). We focused on general information, visual materials, alternative names,
@@ -70,7 +67,7 @@ WHERE {
 The query returned **11 distinct IRIs** typed as `arco:HistoricOrArtisticProperty`. This confirms that ArCo already
 holds records of the physical property, and gives us the exact subject IRIs we may need for future enrichment.
 
-![Query 1 results](https://placehold.co/800x400?text=Query+1+results+%28800x400%29)
+![Query 1 results](assets/sparqlandresult/query-1.png)
 
 ### 🧾 IRIs found
 
@@ -117,7 +114,7 @@ LIMIT 50
 We found that Villa Carlotta belongs to the class **`ArchitecturalOrLandscapeHeritage`**. This will be very useful
 for the enrichment part later.
 
-![Query 2 results](https://placehold.co/800x400?text=Query+2+results+%28800x400%29)
+![Query 2 results](assets/sparqlandresults/query-2.png)
 
 ### 🧾 IRIs found
 
@@ -154,7 +151,7 @@ WHERE {
 
 The query returned the same IRIs found in Query 1, this time including their depictions.
 
-![Query 3 results](https://placehold.co/800x400?text=Query+3+results+%28800x400%29)
+![Query 3 results](assets/sparqlandresults/query-3.png)
 
 ---
 
@@ -207,7 +204,7 @@ This query found **10 new IRIs**. More importantly, it revealed key historical c
 as **"Villa Sommariva"** (named after a famous past owner, Giovanni Battista Sommariva), and it surfaced mentions of
 its famous gardens (**"Giardini"**).
 
-![Query 5 results](https://placehold.co/800x400?text=Query+5+results+%28800x400%29)
+![Query 5 results](assets/sparqlandresults/query-5.png)
 
 ### 🧾 IRIs found
 
