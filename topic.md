@@ -17,7 +17,7 @@ title: Villa Carlotta
 # Villa Carlotta
 _A Neoclassical museum and botanical garden on Lake Como_
 
-![Villa Carlotta seen from Lake Como](https://placehold.co/800x450?text=Villa+Carlotta+from+the+lake+%28800x450%29)
+![Villa Carlotta seen from Lake Como](assets/topic/vill-carlotta2.png)
 
 ## Why Villa Carlotta?
 
