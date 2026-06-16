@@ -67,7 +67,7 @@ WHERE {
 The query returned **11 distinct IRIs** typed as `arco:HistoricOrArtisticProperty`. This confirms that ArCo already
 holds records of the physical property, and gives us the exact subject IRIs we may need for future enrichment.
 
-![Query 1 results](assets/sparqlandresult/query-1.png)
+![Query 1 results](assets/home/sparql-and-results/query-1.png)
 
 ### 🧾 IRIs found
 
@@ -114,7 +114,7 @@ LIMIT 50
 We found that Villa Carlotta belongs to the class **`ArchitecturalOrLandscapeHeritage`**. This will be very useful
 for the enrichment part later.
 
-![Query 2 results](assets/sparqlandresults/query-2.png)
+![Query 2 results](assets/home/sparql-and-results/query-2.png)
 
 ### 🧾 IRIs found
 
@@ -151,7 +151,7 @@ WHERE {
 
 The query returned the same IRIs found in Query 1, this time including their depictions.
 
-![Query 3 results](assets/sparqlandresults/query-3.png)
+![Query 3 results](assets/home/sparql-and-results/query-3.png)
 
 ---
 
@@ -204,7 +204,7 @@ This query found **10 new IRIs**. More importantly, it revealed key historical c
 as **"Villa Sommariva"** (named after a famous past owner, Giovanni Battista Sommariva), and it surfaced mentions of
 its famous gardens (**"Giardini"**).
 
-![Query 5 results](assets/sparqlandresults/query-5.png)
+![Query 5 results](assets/home/sparql-and-results/query-5.png)
 
 ### 🧾 IRIs found
 
