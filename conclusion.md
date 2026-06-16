@@ -4,14 +4,14 @@ title: Villa Carlotta
 ---
 
 <div class="site-nav">
-  <a href="index.html">🏠 Home</a>
-  <a href="topic.html">🏛️ Topic</a>
-  <a href="methodology.html">⚒️ Methodology</a>
-  <a href="sparql.html">📊 SPARQL & Results</a>
-  <a href="gaps.html">🔍 Identifying Gaps</a>
-  <a href="prompts.html">💬 LLM Prompts</a>
-  <a href="rdf.html">🔗 RDF Triples</a>
-  <a href="challenges.html">⚠️ Challenges</a>
+  <a href="index.html">⭐ Home</a>
+  <a href="topic.html">⭐ Topic</a>
+  <a href="methodology.html">⭐ Methodology</a>
+  <a href="sparql.html">⭐ SPARQL & Results</a>
+  <a href="gaps.html">⭐ Identifying Gaps</a>
+  <a href="prompts.html">⭐ LLM Prompts</a>
+  <a href="rdf.html">⭐ RDF Triples</a>
+  <a href="challenges.html">⭐ Challenges</a>
 </div>
 
 <p align="center">
