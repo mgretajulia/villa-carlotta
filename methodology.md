@@ -26,55 +26,55 @@ every aspect of enriching the [**ArCo**](http://wit.istc.cnr.it/arco/) knowledge
    We decided to investigate one of the most famous places connected to Italian cultural heritage that is also used
    for event purposes — Villa Carlotta.
 
-3. **Strategy Development**
+2. **Strategy Development**
    
    We outlined a step-by-step plan for the successful implementation of the project.
 
-5. **Exploring the ArCo Ontologies**
+3. **Exploring the ArCo Ontologies**
    
    We used the [ArCo SPARQL endpoint](https://dati.cultura.gov.it/sparql) to find existing data about Villa Carlotta
    within the ArCo ontologies.
 
-7. **Building SPARQL Queries**
+4. **Building SPARQL Queries**
    
    We developed several SPARQL queries using essential keywords to retrieve relevant information about Villa Carlotta.
 
-9. **Analyzing the Query Results**
+5. **Analyzing the Query Results**
     
    We studied the query results to compare them with our hypotheses about the presence or absence of information.
 
-11. **Identifying Knowledge Gaps**
-    
+6. **Identifying Knowledge Gaps**
+
    We evaluated the queries to detect where the information could be improved or extended.
 
-13. **The Choice of Frequently Used LLMs**
-    
+8. **The Choice of Frequently Used LLMs**
+
    We studied existing LLMs and chose the ones that were suitable for our project work: Gemini, ChatGPT, Claude AI
    and Copilot.
 
-15. **Prompt Engineering for LLMs**
+9. **Prompt Engineering for LLMs**
 
     We crafted prompts using three prompting strategies — **zero-shot**, **few-shot** and **chain-of-thought** — to
    extract new facts from the chosen LLMs.
 
-17. **Comparing LLM Outputs**
+10. **Comparing LLM Outputs**
 
     We analyzed and compared the answers provided by the different language models to ensure consistency and richness.
 
-20. **RDF Enrichment**
+11. **RDF Enrichment**
 
     We transformed relevant LLM outputs into RDF triples using ArCo-compliant structure and vocabulary.
 
-22. **Triple Design**
+12. **Triple Design**
 
     We designed the final RDF triples to reflect the new insights, formatted according to ArCo's ontological model.
 
-24. **Website Creation**
+13. **Website Creation**
     
     We implemented this website using GitHub Pages to present our project in an accessible and visually structured
     format.
 
-25. **Publishing Online**
+14. **Publishing Online**
     The final website was published as an open educational resource, enabling others to explore and reuse our findings.
 
 <hr>
