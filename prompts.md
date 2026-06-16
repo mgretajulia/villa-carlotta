@@ -4,7 +4,7 @@ title: Villa Carlotta
 ---
 
 <div class="site-nav">
-  <a href="index.html">🏠 Home</a>
+  <a href="index.html"> Home</a>
   <a href="topic.html">🏛️ Topic</a>
   <a href="methodology.html">⚒️ Methodology</a>
   <a href="sparql.html">📊 SPARQL & Results</a>
