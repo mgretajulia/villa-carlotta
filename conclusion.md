@@ -14,9 +14,7 @@ title: Villa Carlotta
   <a href="challenges.html">⭐ Challenges</a>
 </div>
 
-<p align="center">
-  <img src="https://placehold.co/800x300?text=Conclusion+%28800x300%29" alt="Conclusion">
-</p>
+![**Villa Carlotta**](assets/home/graph.png)
 
 # Conclusion
 
